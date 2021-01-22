@@ -1,0 +1,15 @@
+Source: nvidia-x11-config
+Section: misc
+Priority: optional
+Maintainer: Uri Herrera <uri_herrera@nxos.org>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: http://nxos.org
+
+
+Package: nvidia-x11-config
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, nvidia-driver-460
+Description: Configuration for the Nvidia
+ proprietary driver used in Nitrux.
+

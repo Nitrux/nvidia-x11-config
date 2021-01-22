@@ -1,0 +1,13 @@
+#!/bin/bash
+
+rm -rf \
+    /usr/share/X11/xorg.conf.d/10-nvidia-drm-outputclass.conf \
+    /usr/share/X11/xorg.conf.d/10-intel.conf \
+    /etc/modprobe.d/blacklist-nouveau.conf
+
+> /usr/share/X11/xorg.conf.d/10-amdgpu.conf printf "%s\n" \
+    'Section "OutputClass"' \
+    '    Identifier "AMDgpu"' \
+    '    MatchDriver "amdgpu"' \
+    '    Driver "amdgpu"' \
+    'EndSection'

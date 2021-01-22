@@ -1,0 +1,5 @@
+nvidia-x11-config (0.0.1)  nitrux; urgency=medium
+
+  * Create package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Thu, 21 Jan 2021 16:48:00 -0500

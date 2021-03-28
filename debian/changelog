@@ -1,3 +1,9 @@
+nvidia-x11-config (0.0.3)  nitrux; urgency=medium
+
+  * Add deps to package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sun, 28 Mar 2021 10:07:00 -0500
+
 nvidia-x11-config (0.0.2)  nitrux; urgency=medium
 
   * Add xtrace.

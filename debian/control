@@ -9,7 +9,7 @@ Homepage: http://nxos.org
 
 Package: nvidia-x11-config
 Architecture: amd64
-Depends: ${shlibs:Depends}, ${misc:Depends}, nvidia-driver-460, nvidia-settings, nvidia-prime
+Depends: ${shlibs:Depends}, ${misc:Depends}, nvidia-driver-470, nvidia-settings, nvidia-prime
 Description: Configuration for the Nvidia
  proprietary driver used in Nitrux.
 

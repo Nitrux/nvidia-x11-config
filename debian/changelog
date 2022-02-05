@@ -1,3 +1,9 @@
+nvidia-x11-config (0.0.6)  nitrux; urgency=medium
+
+  * Update package deps.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 04 Feb 2021 18:56:00 -0500
+
 nvidia-x11-config (0.0.5)  nitrux; urgency=medium
 
   * Update package deps.

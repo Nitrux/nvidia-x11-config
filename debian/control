@@ -9,7 +9,7 @@ Homepage: http://nxos.org
 
 Package: nvidia-x11-config
 Architecture: amd64
-Depends: ${shlibs:Depends}, ${misc:Depends}, nvidia-driver-520, nvidia-settings, nvidia-prime, libnvidia-egl-wayland1
+Depends: ${shlibs:Depends}, ${misc:Depends}, nvidia-driver-525, nvidia-settings, nvidia-prime, libnvidia-egl-wayland1
 Conflicts: nvidia-driver-390
 Description: Configuration for the Nvidia
  proprietary driver used in Nitrux.
